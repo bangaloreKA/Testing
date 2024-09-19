@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Information Form</title>
+</head>
+<body>
+<form action="/get_info" method="POST">
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="date_of_birth">Enter your date of birth (dd/mm/yyyy):</label>
+    <input type="text" id="date_of_birth" name="date_of_birth" required pattern="\d{2}/\d{2}/\d{4}"><br>
+
+    <label for="time_of_birth">Enter your time of birth:</label>
+    <input type="text" id="time_of_birth" name="time_of_birth" required><br>
+
+    <label for="place_of_birth">Enter your place of birth:</label>
+    <input type="text" id="place_of_birth" name="place_of_birth" required><br>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

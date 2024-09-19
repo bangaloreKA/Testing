@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lunar Day Calculator</title>
+</head>
+<body>
+<h1>Lunar Day Calculator</h1>
+<form action="/calculate" method="post">
+    <label for="place">Place:</label>
+    <input type="text" id="place" name="place" required><br>
+    <label for="longitude">Longitude:</label>
+    <input type="text" id="longitude" name="longitude" required><br>
+    <label for="latitude">Latitude:</label>
+    <input type="text" id="latitude" name="latitude" required><br>
+    <label for="time_of_birth">Time of Birth (HH:MM):</label>
+    <input type="text" id="time_of_birth" name="time_of_birth" required><br>
+    <label for="date_of_birth">Date of Birth (DD/MM/YYYY):</label>
+    <input type="text" id="date_of_birth" name="date_of_birth" required><br>
+    <label for="gmt">GMT Offset:</label>
+    <input type="text" id="gmt" name="gmt" required><br>
+    <input type="submit" value="Calculate">
+</form>
+</body>
+</html>
